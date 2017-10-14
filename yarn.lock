@@ -787,6 +787,12 @@ lru-cache@^4.0.1:
     pseudomap "^1.0.2"
     yallist "^2.1.2"
 
+mcp3008.js@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/mcp3008.js/-/mcp3008.js-0.4.0.tgz#b1d180b732f0cdcad1c1593edeedda05f4df2690"
+  dependencies:
+    pi-spi "^1.0.1"
+
 media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
@@ -841,7 +847,7 @@ mute-stream@0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
 
-nan@*:
+nan@*, nan@^2.3.5:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.7.0.tgz#d95bf721ec877e08db276ed3fc6eb78f9083ad46"
 
@@ -950,6 +956,12 @@ path-type@^2.0.0:
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-2.0.0.tgz#f012ccb8415b7096fc2daa1054c3d72389594c73"
   dependencies:
     pify "^2.0.0"
+
+pi-spi@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/pi-spi/-/pi-spi-1.0.2.tgz#10619ea2e7e1f8425b885abefb627c2739030dc6"
+  dependencies:
+    nan "^2.3.5"
 
 pify@^2.0.0:
   version "2.3.0"
