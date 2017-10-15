@@ -18,7 +18,6 @@
   "homepage": "https://github.com/mariusbrn/pepper-check#readme",
   "dependencies": {
     "express": "^4.16.1",
-    "mcp3008.js": "^0.4.0",
     "rpio": "^0.9.19"
   },
   "devDependencies": {
